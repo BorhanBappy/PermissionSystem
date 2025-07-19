@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "F1/0up4zAgA=",
+  "success": true,
+  "projectFilePath": "E:\\C#\\PermissionAuthorization\\Application\\Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\bappy\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\9.0.7\\microsoft.entityframeworkcore.abstractions.9.0.7.nupkg.sha512"
+  ],
+  "logs": []
+}

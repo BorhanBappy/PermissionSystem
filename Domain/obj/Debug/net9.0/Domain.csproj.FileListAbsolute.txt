@@ -1,0 +1,12 @@
+E:\C#\PermissionAuthorization\Domain\bin\Debug\net9.0\Domain.deps.json
+E:\C#\PermissionAuthorization\Domain\bin\Debug\net9.0\Domain.dll
+E:\C#\PermissionAuthorization\Domain\bin\Debug\net9.0\Domain.pdb
+E:\C#\PermissionAuthorization\Domain\obj\Debug\net9.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+E:\C#\PermissionAuthorization\Domain\obj\Debug\net9.0\Domain.AssemblyInfoInputs.cache
+E:\C#\PermissionAuthorization\Domain\obj\Debug\net9.0\Domain.AssemblyInfo.cs
+E:\C#\PermissionAuthorization\Domain\obj\Debug\net9.0\Domain.csproj.CoreCompileInputs.cache
+E:\C#\PermissionAuthorization\Domain\obj\Debug\net9.0\Domain.dll
+E:\C#\PermissionAuthorization\Domain\obj\Debug\net9.0\refint\Domain.dll
+E:\C#\PermissionAuthorization\Domain\obj\Debug\net9.0\Domain.pdb
+E:\C#\PermissionAuthorization\Domain\obj\Debug\net9.0\ref\Domain.dll
+E:\C#\PermissionAuthorization\Domain\obj\Debug\net9.0\Domain.csproj.AssemblyReference.cache

@@ -1,0 +1,11 @@
+E:\C#\PermissionAuthorization\Common\bin\Debug\net9.0\Common.deps.json
+E:\C#\PermissionAuthorization\Common\bin\Debug\net9.0\Common.dll
+E:\C#\PermissionAuthorization\Common\bin\Debug\net9.0\Common.pdb
+E:\C#\PermissionAuthorization\Common\obj\Debug\net9.0\Common.GeneratedMSBuildEditorConfig.editorconfig
+E:\C#\PermissionAuthorization\Common\obj\Debug\net9.0\Common.AssemblyInfoInputs.cache
+E:\C#\PermissionAuthorization\Common\obj\Debug\net9.0\Common.AssemblyInfo.cs
+E:\C#\PermissionAuthorization\Common\obj\Debug\net9.0\Common.csproj.CoreCompileInputs.cache
+E:\C#\PermissionAuthorization\Common\obj\Debug\net9.0\Common.dll
+E:\C#\PermissionAuthorization\Common\obj\Debug\net9.0\refint\Common.dll
+E:\C#\PermissionAuthorization\Common\obj\Debug\net9.0\Common.pdb
+E:\C#\PermissionAuthorization\Common\obj\Debug\net9.0\ref\Common.dll
