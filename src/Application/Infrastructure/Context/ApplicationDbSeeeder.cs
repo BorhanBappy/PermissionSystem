@@ -24,7 +24,7 @@ namespace Infrastructure.Context
             await CheckAndApplyPendingMigrationAsync();
             await SeedRolesAsync();
 
-            await SeedBasicUserAsync();
+            // await SeedBasicUserAsync();
 
             await SeedAdminUserAsync();
         }
@@ -80,7 +80,9 @@ namespace Infrastructure.Context
                 PhoneNumberConfirmed = true,
                 NormalizedEmail = "JOHND@ABC.COM",
                 NormalizedUserName = "JOHND",
-                IsActive = true
+                IsActive = true,
+                RefreshToken = Guid.NewGuid().ToString(), // ✅ Add this line
+                RefreshTokenExpiryDate = DateTime.UtcNow.AddDays(7) // ✅ And this one
             };
 
             if (!await _userManager.Users.AnyAsync(u => u.Email == "johnd@abc.com"))
