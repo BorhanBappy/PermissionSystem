@@ -1,16 +1,21 @@
 # Default ignored files
 /shelf/
 /workspace.xml
+
 # Rider ignored files
 /modules.xml
 /projectSettingsUpdater.xml
 /contentModel.xml
 /.idea.Application.iml
+
 # Editor-based HTTP Client requests
 /httpRequests/
+
 # Datasource local storage ignored files
 /dataSources/
 /dataSources.local.xml
+
+# Build and project artifacts
 *.exe
 *.dll
 *.pdb
@@ -19,3 +24,7 @@
 *.AssemblyInfo.inputs.cache
 bin/
 obj/
+*.csproj.FileListAbsolute.txt
+*.csproj.nuget.dgspec.json
+*.csproj.nuget.g.props
+*.csproj.nuget.g.targets
