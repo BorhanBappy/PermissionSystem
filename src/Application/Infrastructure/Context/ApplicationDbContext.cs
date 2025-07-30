@@ -1,4 +1,5 @@
-﻿using Domain;
+﻿using System.Linq;
+using Domain;
 using Infrastructure.Models;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
