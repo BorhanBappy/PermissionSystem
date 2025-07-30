@@ -1,4 +1,5 @@
 using Infrastructure;
+using Scalar.AspNetCore;
 using WebApi;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -17,6 +18,7 @@ app.SeedDatabase();
 if (app.Environment.IsDevelopment())
 {
     app.MapOpenApi();
+    app.MapScalarApiReference();
 }
 
 app.UseHttpsRedirection();
