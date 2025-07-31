@@ -1,6 +1,8 @@
 ﻿using Infrastructure.Context;
 using Infrastructure.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
+using WebApi.Permissions;
 
 namespace WebApi
 {
@@ -16,13 +18,15 @@ namespace WebApi
             {
                 seeder.SeedDatabaseAsync().GetAwaiter().GetResult();
             }
+
             return app;
         }
 
         internal static IServiceCollection AddIdentitySettings(this IServiceCollection services)
         {
             services
-                
+                .AddSingleton<IAuthorizationPolicyProvider, PermissionPolicyProvider>()
+                .AddScoped<IAuthorizationHandler, PermissionAuthorizationHandler>()
                 .AddIdentity<ApplicationUser, ApplicationRole>(options =>
                 {
                     options.Password.RequiredLength = 6;
@@ -36,7 +40,5 @@ namespace WebApi
                 .AddDefaultTokenProviders();
             return services;
         }
-
-
     }
 }

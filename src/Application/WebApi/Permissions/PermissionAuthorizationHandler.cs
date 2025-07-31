@@ -3,10 +3,10 @@ using Microsoft.AspNetCore.Authorization;
 
 namespace WebApi.Permissions;
 
-public class PermissionAuthenticationHandler : AuthorizationHandler<PermissionRequirement>
+public class PermissionAuthorizationHandler : AuthorizationHandler<PermissionRequirement>
 
 {
-    public PermissionAuthenticationHandler()
+    public PermissionAuthorizationHandler()
     {
     }
 

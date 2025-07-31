@@ -1,4 +1,5 @@
-﻿using System.Linq;
+﻿using System;
+using System.Linq;
 using Domain;
 using Infrastructure.Models;
 using Microsoft.AspNetCore.Identity;
@@ -8,8 +9,8 @@ using Microsoft.EntityFrameworkCore;
 namespace Infrastructure.Context
 {
     public class ApplicationDbContext 
-        : IdentityDbContext<ApplicationUser, ApplicationRole, string, IdentityUserClaim<string>, IdentityUserRole<string>, 
-            IdentityUserLogin<string>, ApplicationRoleClaim, IdentityUserToken<string>>
+        : IdentityDbContext<ApplicationUser, ApplicationRole, Guid, IdentityUserClaim<Guid>, IdentityUserRole<Guid>, 
+            IdentityUserLogin<Guid>, ApplicationRoleClaim, IdentityUserToken<Guid>>
     {
         public ApplicationDbContext(DbContextOptions options)
             : base(options)

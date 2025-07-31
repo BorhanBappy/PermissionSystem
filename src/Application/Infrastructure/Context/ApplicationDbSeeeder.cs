@@ -46,8 +46,8 @@ namespace Infrastructure.Context
             string adminUserName = AppCredentials.Email[..AppCredentials.Email.IndexOf('@')].ToLowerInvariant();
             var adminUser = new ApplicationUser
             {
-                FirstName = "Junior",
-                LastName = "Matlou",
+                FirstName = "Borhan",
+                LastName = "Uddin",
                 Email = AppCredentials.Email,
                 UserName = adminUserName,
                 EmailConfirmed = true,
